@@ -3,9 +3,9 @@
 const nextConfig = {
   reactStrictMode: true,
   typescript: {
-    // ✅ Skip TS type-checking during build so Vercel won't block the deploy
-    ignoreBuildErrors: true,
-  },
+    // Skip TS type-checking during build so Vercel won't block deploy
+    ignoreBuildErrors: true
+  }
 };
 
 export default nextConfig;
